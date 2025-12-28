@@ -74,8 +74,10 @@ while True:
 
     elif _answerUser == "exit":
         subprocess.run(["python", "_main_.py"])
+        break
 
     else:
         clear()
         print("В базе нет таких zapret-ов!")
+
         time.sleep(2)
